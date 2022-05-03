@@ -1,6 +1,6 @@
 import { useState, useContext } from 'react';
 import { NavLink } from 'react-router-dom';
-import { CartContext } from '../body/cardProvider';
+import { CartContext } from '../../providers/CartProvider';
 import Modal from './modal';
 
 

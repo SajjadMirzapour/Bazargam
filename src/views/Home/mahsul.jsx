@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { CartContext } from "./cardProvider"
+import { CartContext } from "../../providers/CartProvider"
 
 export default function Mahsul({ product }) {
     const { name, image, price, weight, runOut, discount, id } = product

@@ -12,7 +12,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import PaymentIcon from '@mui/icons-material/Payment';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
-import { CartContext } from '../body/cardProvider';
+import { CartContext } from '../../providers/CartProvider';
 // import { CatchingPokemon, Send } from '@mui/icons-material';
 
 const items = [

@@ -1,8 +1,8 @@
 import { Outlet, useLocation, useParams } from "react-router-dom"
-import Header from "../header/header"
-import Footer from "../footer/footer"
-import CartProvider from "../body/cardProvider";
-import Scroll from "../scroll/scroll";
+import Header from "./header/header"
+import Footer from "./footer/footer"
+import CartProvider from "../providers/CartProvider";
+import Scroll from "./scroll/scroll";
 // import { useEffect, useState } from "react";
 
 

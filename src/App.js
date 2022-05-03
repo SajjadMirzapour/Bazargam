@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Bazargam from './body/bazargam'
 import Layout from './layouts/layouts';
-import Login from './login/login'
-import Register from './register/register'
+import Home from './views/Home/bazargam'
+import Login from './views/login/login'
+import Register from './views/register/register'
 
 // import Bazargam from './09-practiceEshop/bazargam';
 // import Layout from './09-practiceEshop/Layouts/Layouts';
@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='' element={<Layout />} >
-          <Route index element={<Bazargam />} />
+          <Route index element={<Home />} />
           <Route path='login' element={<Login />} />
           <Route path='register' element={<Register />} />
         </Route>
